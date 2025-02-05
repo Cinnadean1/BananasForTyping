@@ -4,7 +4,7 @@ const title = document.getElementById("title");
 const textbox = document.getElementById("textbox");
 
 submitB.onclick = () => {
-  title.innerHTML = "test";
+  title.innerHTML = textbox;
 }
 
 button.onclick = () => {
