@@ -1,3 +1,3 @@
-const button = document.GetElementById("button");
+const button = document.getElementById("button");
 
 console.log(button);
