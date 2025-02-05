@@ -1,7 +1,7 @@
 const button = document.getElementById("button");
 const submitB = document.getElementById("submit");
-const title = document.getElementById("title");
-const textbox = document.getElementById("textbox");
+let title = document.getElementById("title");
+let textbox = document.getElementById("textbox");
 
 submitB.onclick = () => {
   title.innerHTML = textbox;
