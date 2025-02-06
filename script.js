@@ -1,4 +1,5 @@
 const button = document.getElementById("button");
+let bananas = 0;
 
 const submitB = document.getElementById("submit");
 let title = document.getElementById("title");
@@ -10,5 +11,6 @@ submitB.onclick = () => {
 }
 
 button.onclick = () => {
-  console.log("the butt")
+  console.log("banana");
+  bananas = bananas + 1;
 }
