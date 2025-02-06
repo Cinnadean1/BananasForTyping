@@ -1,4 +1,5 @@
-const button = document.getElementById("button");
+const button = document.getElementById("bananaB");
+const count = document.getElementById("count");
 let bananas = 0;
 
 const submitB = document.getElementById("submit");
@@ -13,4 +14,5 @@ submitB.onclick = () => {
 button.onclick = () => {
   console.log("banana");
   bananas = bananas + 1;
+  count.innerHTML = bananas;
 }
