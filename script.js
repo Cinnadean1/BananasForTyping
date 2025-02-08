@@ -11,7 +11,7 @@ let textbox = document.getElementById("textbox");
 let username = "placeholderuser"
 
 insert.onclick = () => {
-  bananas = number.value;
+  bananas = bananas + number.value;
   count.innerHTML = bananas;
 }
 
