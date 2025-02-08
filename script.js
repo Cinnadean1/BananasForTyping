@@ -1,5 +1,5 @@
 const insert = document.getElementById("insert");
-const number = document.getElementById("number");
+const number = document.getElementById("numbers");
 
 const button = document.getElementById("bananaB");
 const count = document.getElementById("count");
